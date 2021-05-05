@@ -1,0 +1,70 @@
+/* .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h1{
+  font-family: fantasy;
+  font-size: 3em;
+  border-bottom: 2px solid pink;
+  border-right: 2px solid pink;
+  width: 400px;
+  text-align: center;
+}
+img {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+} */
+
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body {
+	margin: 0px;
+}
+
+.container{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+h1{
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 3em;
+  border-bottom: 2px solid pink;
+  border-right: 2px solid pink;
+  width: 500px;
+  text-align: center;
+  -moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+  box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+}
+img {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+  transition: all 1s;
+}
+
+img:hover{
+  transform: scale(1.1);
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+}
